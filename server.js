@@ -1,7 +1,7 @@
 var express=require("express");
 var app=express();
 
-var port=6000;
+var port=3800;
 
 app.listen(port,function(req,res){
     console.log("server listening on port..",port);
